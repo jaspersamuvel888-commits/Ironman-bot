@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 import yfinance as yf
 from datetime import datetime
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8469797335:AAET6kWid3eBwjqFph0_aHbSEV7TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "YOUR_CHAT_ID_HERE")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8469797335:AAET6kWid3eBwjqFph0_aHbSEV7TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "7849801313")
 MIN_SCORE = 4
 ATR_PERIOD = 14
 ATR_SL_MULT = 1.5
