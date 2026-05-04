@@ -184,7 +184,8 @@ def main():
  if eco:
  if eco_warned_today != today:
  eco_warned_today = today
- send_telegram("<b>" + eco + " DAY</b>\nAll signals paused. No trades toda print("ECO BLOCK: " + eco)
+            send_telegram("<b>" + eco + " DAY</b>\nAll signals paused. No trades today.")
+            print("ECO BLOCK: " + eco)
  time.sleep(CHECK_INTERVAL * 10)
  continue
  df = fetch_data()
